@@ -19,6 +19,4 @@ node_modules/
 dist/*
 **/dist/*
 
-test.txt
-tuto.txt
-tutorial.txt
+*.txt
