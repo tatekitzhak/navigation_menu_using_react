@@ -22,3 +22,20 @@ header{
     position: absolute;
     float: left;
 }
+ul{
+    /* display: grid;
+    grid-template-rows: auto; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    align-content: end;
+ 
+}
+li{
+    /* grid-column-start: 1;
+    background: rgb(230, 230, 230); */
+    background: gray;
+  width: 19em;
+  height: 4em;
+  margin: .1em;
+}
