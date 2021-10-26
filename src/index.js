@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import 'bootstrap';
 import './scss/app.scss';
+import './scss/index.css';
 /*
 * Flexible drawer menu using jQuery, iScroll and CSS.
 * http://git.blivesta.com/drawer/
@@ -40,8 +41,11 @@ class App extends React.Component{
         });
     });
       return(
-          <div>
+          <div className="app_container">
+            <div className="header">
               <h1>App</h1>
+            </div>
+             
               <NavigationMenu/>
           </div>
       )
