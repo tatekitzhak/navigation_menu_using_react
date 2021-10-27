@@ -9,7 +9,7 @@ function NavigationMenu() {
               <header className="drawer-navbar" role="banner">
                 <div className="drawer-container">
                     <div className="drawer-navbar-header">
-                        {/* <a className="drawer-brand" href="./index.html">Drawer</a> */}
+                        <a className="drawer-brand" href="./index.html">TOPICS</a>
                         <button type="button" className="drawer-toggle drawer-hamburger">
                             <span className="sr-only">toggle navigation</span>
                             <span className="drawer-hamburger-icon"></span>

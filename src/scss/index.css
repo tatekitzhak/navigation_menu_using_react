@@ -1,12 +1,14 @@
+
 body {
        font-family: 'Avenir Next', 'Helvetica Neue', sans-serif;
        margin: 0;
        background-color: #fff;
    } 
 .app_container{
-    display: grid;
     background-color: yellowgreen;
     padding: 10px;
+    height: 100vh;
+  width: 100vw;
 }
 .app_container > .header{
     background-color: aqua;
@@ -17,6 +19,9 @@ body {
 }
 header{
     background-color: #d5c9e2;
+}
+.drawer-nav {
+    float: left;
 }
 .drawer-hamburger {
     position: absolute;
@@ -39,3 +44,38 @@ li{
   height: 4em;
   margin: .1em;
 }
+.drawer-container {
+    margin-right: auto;
+    margin-left: inherit;
+}
+@media (min-width: 64em){
+    .drawer-navbar .drawer-navbar-header {
+        position: relative;
+        display: block;
+        float: none; 
+        width: auto;
+        padding: 0;
+        border: 0;
+    }
+    .drawer-navbar .drawer-nav {
+        position: relative;
+        left: 0;
+        overflow: visible;
+        width: auto;
+        height: auto;
+        padding-top: 0;
+        transform: translate3d(0, 0, 0);
+    }
+    
+}
+@media only screen and (max-width: 500px) and (min-width: 300px)  {
+    .menu_topics {
+        position: fixed;
+        z-index: 101;
+        top: 128px;
+        
+    }
+}
+
+
+
