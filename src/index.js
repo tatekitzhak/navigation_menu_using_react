@@ -6,7 +6,7 @@ import './scss/index.css';
 /*
 * Flexible drawer menu using jQuery, iScroll and CSS.
 * http://git.blivesta.com/drawer/
-*https://codepen.io/golfer19881/pen/mAQLmB
+* https://codepen.io/golfer19881/pen/mAQLmB
 */
 import 'iscroll';
 import $ from 'jquery';
